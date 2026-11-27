@@ -28,7 +28,7 @@ peixe_t criar_novo_peixe()
     peixe_t peixe;
 
     printf("Identificação.............: ");
-    scanf("%hhi", &peixe.id);
+    scanf("%hhu", &peixe.id);
     getchar();
 
     printf("Espécie...................: ");
@@ -50,7 +50,7 @@ cliente_t criar_novo_cliente()
     cliente_t cliente;
 
     printf("Identificação.............: ");
-    scanf("%hhi", &cliente.id);
+    scanf("%hhu", &cliente.id);
     getchar();
 
     printf("Nome......................: ");

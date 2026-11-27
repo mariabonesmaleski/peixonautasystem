@@ -2,6 +2,7 @@
 #include "../include/conf.h"
 #include <string.h>
 #include <ctype.h>
+#include <stdlib.h>
 
 void limpar_tela()
 {
